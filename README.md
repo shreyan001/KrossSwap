@@ -1,3 +1,4 @@
+
 ```markdown
 # KrossSwap: Autonomous AI-Powered Cross-Chain Swaps
 
@@ -122,7 +123,7 @@ pnpm start
 
 This setup will ensure that your Gaianet server is configured to work seamlessly with the KrossSwap project, providing the necessary AI capabilities for cross-chain swaps.
 
-# Self-Sustaining Operations
+## Self-Sustaining Operations
 
 KrossSwap implements the Lit Protocol to autonomously manage payments for its LLM node server and Node.js server costs. This is achieved through smart contracts that handle subscription payments, ensuring that the platform remains operational without manual intervention. The integration of Lit Protocol allows KrossSwap to:
 
@@ -182,7 +183,3 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 This project is licensed under the MIT License.
 ```
-
-#   K r o s s S w a p 
- 
- 
