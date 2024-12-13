@@ -3,11 +3,11 @@
 
 ## Introduction
 
-KrossSwap is an innovative solution for cross-chain cryptocurrency swaps, leveraging the power of AI and the Chainflip SDK. Designed to operate autonomously, KrossSwap not only simplifies the swapping process but also sustains its operations through brokerage earnings. This project is a submission for the Autonomous AI Hackathon, showcasing the potential of decentralized AI nodes in the Web3 ecosystem.
+KrossSwap is a non-custodial AI-powered cross-chain swap assistant that leverages the Chainflip SDK and LLM technology. Through natural conversations, users can generate payment channels and execute swaps by simply scanning QR codes in the Telegram web app. The system is fully transparent - users can verify all transactions on the Chainflip Explorer with guidance from the AI agent. What sets KrossSwap apart is its self-sustaining model: the bot autonomously manages operational costs by using Lit Protocol to direct brokerage commissions towards node server expenses and LLM API costs via smart contracts. This project demonstrates how AI can make DeFi more accessible while maintaining true decentralization and self-sovereignty.
 
 ## Vision
 
-KrossSwap aims to revolutionize cross-chain cryptocurrency swaps by combining artificial intelligence with Chainflip's powerful SDK. Our vision is to make complex blockchain operations as simple as sending a text message, accessible to users of all experience levels.
+KrossSwap reimagines cross-chain swaps by combining conversational AI with non-custodial infrastructure. Our vision is to make DeFi accessible through natural dialogue while ensuring users maintain complete control of their funds. The system sustains itself through automated commission-based payments, creating a truly autonomous and user-friendly cross-chain bridge.
 
 ## How It Works
 
