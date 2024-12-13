@@ -1,5 +1,3 @@
-
-```markdown
 # KrossSwap: Autonomous AI-Powered Cross-Chain Swaps
 
 ## Introduction
@@ -20,6 +18,8 @@ KrossSwap reimagines cross-chain swaps by combining conversational AI with non-c
 ## Demo and Pitch Video
 
 Watch the [Demo and Pitch Video](https://youtu.be/lMs1QKDKo3I) to see KrossSwap in action.
+
+Try the [KrossSwap Bot Demo](https://web.telegram.org/k/#@KrossSwap_bot) on Telegram.
 
 
 
