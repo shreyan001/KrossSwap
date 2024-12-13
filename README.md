@@ -17,6 +17,10 @@ KrossSwap reimagines cross-chain swaps by combining conversational AI with non-c
 3. **Chainflip Integration**: Real-time quotes and secure, non-custodial swaps are facilitated using the Chainflip SDK.
 4. **Step-by-Step Guidance**: KrossSwap provides clear instructions throughout the entire swap process.
 
+## Demo and Pitch Video
+
+Watch the [Demo and Pitch Video](https://youtu.be/lMs1QKDKo3I) to see KrossSwap in action.
+
 ## Technology Stack
 
 - **LangGraph.js**: Manages AI-driven interactions and ensures context-aware communication.
