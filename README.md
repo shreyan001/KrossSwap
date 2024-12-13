@@ -21,6 +21,8 @@ KrossSwap reimagines cross-chain swaps by combining conversational AI with non-c
 
 Watch the [Demo and Pitch Video](https://youtu.be/lMs1QKDKo3I) to see KrossSwap in action.
 
+
+
 ## Technology Stack
 
 - **LangGraph.js**: Manages AI-driven interactions and ensures context-aware communication.
@@ -137,11 +139,15 @@ KrossSwap implements the Lit Protocol to autonomously manage payments for its LL
 
 - **Verification via Chainflip Explorer**: Users can verify the authenticity of the process using the Chainflip Explorer. The AI agent provides links and instructions to check transaction details, ensuring transparency and trust.
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue if you have any suggestions or improvements.
 
 ## Judging Criteria
+
+### Agent Integrations
+
+Create a unique integration using any Web 2 or Web3 APIs for agent-to-agent or agent-to-human applications.
+
+KrossSwap excels in agent integrations by utilizing the Chainflip SDK to enable non-custodial cross-chain swaps as simple as sending a text message. This integration allows users to create payment channels effortlessly through conversational exchanges with the AI agent. By leveraging Chainflip, KrossSwap ensures secure and efficient swaps across different blockchain networks, making it a strong contender for the best agent integration category. The seamless interaction between AI and blockchain technology highlights KrossSwap's innovative approach to decentralized finance.
 
 ### Creativity
 
