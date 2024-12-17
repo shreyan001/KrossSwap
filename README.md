@@ -142,6 +142,36 @@ KrossSwap implements the Lit Protocol to autonomously manage payments for its LL
 - **Verification via Chainflip Explorer**: Users can verify the authenticity of the process using the Chainflip Explorer. The AI agent provides links and instructions to check transaction details, ensuring transparency and trust.
 
 
+## Revenue Model & Brokerage System
+
+KrossSwap operates as a Chainflip broker, leveraging the protocol's built-in brokerage system to generate sustainable revenue. Here's how it works:
+
+### Brokerage Fee Structure
+- As a Chainflip broker, KrossSwap can set fees between 0-1000 basis points on all swaps
+- These fees are automatically deducted from the USDC amount of successful swaps
+- Fees are credited directly to KrossSwap's broker account on the State Chain
+
+### Automated Fee Distribution
+KrossSwap uses Lit Protocol to automatically distribute collected fees:
+- 40% - Server operational costs (node hosting, API calls)
+- 30% - LLM API usage fees
+- 20% - Development fund
+- 10% - Protocol treasury
+
+### User Benefits
+- Transparent fee structure visible before each swap
+- No hidden costs or additional charges
+- All fees can be verified on Chainflip Explorer
+- Lower fees compared to traditional cross-chain bridges
+
+### Technical Implementation
+- KrossSwap submits Deposit Channel Requests to the State Chain on behalf of users
+- Each request includes the user's swap details and destination address
+- Users can verify transaction hashes before making deposits
+- The system automatically processes fees through smart contracts
+
+This revenue model ensures KrossSwap remains self-sustaining while providing competitive rates for users. All fee distributions are handled autonomously through Lit Protocol's smart contract system, requiring no manual intervention.
+
 
 ## Judging Criteria
 
@@ -252,4 +282,5 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 ## License
 
 This project is licensed under the MIT License.
+
 ```
