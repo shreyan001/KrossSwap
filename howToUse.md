@@ -1,59 +1,59 @@
 # How to Use KrossSwap
 
-KrossSwap is an innovative AI-powered platform that facilitates cross-chain cryptocurrency swaps through a user-friendly conversational interface on Telegram. This guide will walk you through each step of using KrossSwap, ensuring you can take full advantage of its features.
+![KrossSwap Logo](./images/krossswap-logo.png)
 
 ## Getting Started
 
 ### Step 1: Starting the Bot
-
+![Starting the Bot](./images/start-command.png)
 - **Command**: `/start`
-- **Description**: Begin your journey with KrossSwap by sending the `/start` command in the Telegram chat. This initializes the bot and prepares it for interaction.
+- **Description**: Begin your journey with KrossSwap by sending the `/start` command in the Telegram chat.
 
 ### Step 2: Initiating a Swap
-
+![Swap Request](./images/swap-request.png)
 - **Command**: Send a message like "I want to swap 0.1 BTC to ETH."
-- **Description**: Simply type your swap request in natural language. The AI-driven bot will understand your request and initiate the swap process.
+- **Description**: Simply type your swap request in natural language.
 
 ## Providing Swap Details
 
 ### Step 3: Follow the Bot's Prompts
-
+![Bot Prompts](./images/bot-prompts.png)
 - **Command**: Provide the source token, source chain, destination token, destination chain, and amount as prompted by the bot.
-- **Description**: The bot will guide you through providing all necessary details for the swap. This ensures accuracy and efficiency in processing your request.
+- **Description**: The bot will guide you through providing all necessary details for the swap.
 
 ## Confirming the Swap
 
 ### Step 4: Review and Confirm
-
+![Review Details](./images/review-details.png)
 - **Command**: Confirm the details provided by the bot.
-- **Description**: The bot will display a summary of your swap details. Carefully review this information and confirm to proceed.
+- **Description**: The bot will display a summary of your swap details.
 
 ## Generating the Deposit Address
 
 ### Step 5: Automatic Address Generation
-
+![QR Code Generation](./images/qr-code.png)
 - **Command**: The bot will automatically generate the deposit address after confirmation.
-- **Description**: A QR code will be provided for easy scanning and payment. This step is crucial for ensuring the security and accuracy of the transaction.
+- **Description**: A QR code will be provided for easy scanning and payment.
 
 ## Completing the Transaction
 
 ### Step 6: Scan and Pay
-
+![Scan QR](./images/scan-qr.png)
 - **Command**: Scan the QR code with your wallet app and complete the transaction.
-- **Description**: Use your preferred wallet app to scan the QR code. This will load the deposit address and the amount to pay, streamlining the payment process.
+- **Description**: Use your preferred wallet app to scan the QR code.
 
 ## Real-Time Status Updates
 
 ### Step 7: Stay Informed
-
-- **Description**: The bot provides real-time status updates on your transaction, ensuring you are always informed about the progress and completion of your swap.
+![Transaction Status](./images/transaction-status.png)
+- **Description**: The bot provides real-time status updates on your transaction.
 
 ## Refreshing the Session
 
 ### Step 8: Start Anew
-
+![Refresh Command](./images/refresh-command.png)
 - **Command**: `/refresh`
-- **Description**: Clears the current session and starts a new conversation. This is useful for resetting the bot or beginning a new swap process.
+- **Description**: Clears the current session and starts a new conversation.
 
 ## Additional Features
 
