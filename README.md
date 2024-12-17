@@ -12,7 +12,7 @@ KrossSwap reimagines cross-chain swaps by combining conversational AI with non-c
 
 1. **Conversational Interface**: Users interact with KrossSwap through natural language on Telegram.
 2. **AI-Driven Understanding**: Advanced language models interpret user requests and guide the conversation.
-3. **Chainflip Integration**: Real-time quotes and secure, non-custodial swaps are facilitated using the Chainflip SDK.
+3. **Chainflip Integration**: Real-time quotes and secure, non-custodial swaps are facilitated using the Chainflip SDK. For more details on Chainflip's brokerage system, refer to the [Chainflip Documentation on Deposit Channels & Brokers](https://docs.chainflip.io/concepts/swaps-amm/deposit-channels-and-brokers).
 4. **Step-by-Step Guidance**: KrossSwap provides clear instructions throughout the entire swap process.
 
 ## Demo and Pitch Video
@@ -68,7 +68,10 @@ pnpm install
 
 ### Step 3: Set Up Gaianet Server
 
-To run the Gaianet server, use the following commands to configure it:
+To run the Gaianet server, use the following commands to configure it. For detailed instructions on deploying a GaiaNet node, refer to the following resources:
+
+- [GaiaNet Documentation](https://docs.gaianet.ai/)
+- [GaiaNet Litepaper](https://docs.gaianet.ai/litepaper/)
 
 ```bash
 gaianet config \
