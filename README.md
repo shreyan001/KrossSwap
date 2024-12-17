@@ -21,6 +21,8 @@ Watch the [Demo and Pitch Video](https://youtu.be/lMs1QKDKo3I) to see KrossSwap 
 
 Try the [KrossSwap Bot Demo](https://web.telegram.org/k/#@KrossSwap_bot) on Telegram.
 
+Watch the [Pitch Video](https://youtu.be/lMs1QKDKo3I) for more insights.
+
 
 
 ## Technology Stack
