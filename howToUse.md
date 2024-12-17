@@ -9,14 +9,10 @@ KrossSwap is an innovative AI-powered platform that facilitates cross-chain cryp
 - **Command**: `/start`
 - **Description**: Begin your journey with KrossSwap by sending the `/start` command in the Telegram chat. This initializes the bot and prepares it for interaction.
 
-*Image Placeholder: Starting the Bot*
-
 ### Step 2: Initiating a Swap
 
 - **Command**: Send a message like "I want to swap 0.1 BTC to ETH."
 - **Description**: Simply type your swap request in natural language. The AI-driven bot will understand your request and initiate the swap process.
-
-*Image Placeholder: Initiating a Swap*
 
 ## Providing Swap Details
 
@@ -25,16 +21,12 @@ KrossSwap is an innovative AI-powered platform that facilitates cross-chain cryp
 - **Command**: Provide the source token, source chain, destination token, destination chain, and amount as prompted by the bot.
 - **Description**: The bot will guide you through providing all necessary details for the swap. This ensures accuracy and efficiency in processing your request.
 
-*Image Placeholder: Providing Swap Details*
-
 ## Confirming the Swap
 
 ### Step 4: Review and Confirm
 
 - **Command**: Confirm the details provided by the bot.
 - **Description**: The bot will display a summary of your swap details. Carefully review this information and confirm to proceed.
-
-*Image Placeholder: Confirming the Swap*
 
 ## Generating the Deposit Address
 
@@ -43,8 +35,6 @@ KrossSwap is an innovative AI-powered platform that facilitates cross-chain cryp
 - **Command**: The bot will automatically generate the deposit address after confirmation.
 - **Description**: A QR code will be provided for easy scanning and payment. This step is crucial for ensuring the security and accuracy of the transaction.
 
-*Image Placeholder: Generating the Deposit Address*
-
 ## Completing the Transaction
 
 ### Step 6: Scan and Pay
@@ -52,15 +42,11 @@ KrossSwap is an innovative AI-powered platform that facilitates cross-chain cryp
 - **Command**: Scan the QR code with your wallet app and complete the transaction.
 - **Description**: Use your preferred wallet app to scan the QR code. This will load the deposit address and the amount to pay, streamlining the payment process.
 
-*Image Placeholder: Completing the Transaction*
-
 ## Real-Time Status Updates
 
 ### Step 7: Stay Informed
 
 - **Description**: The bot provides real-time status updates on your transaction, ensuring you are always informed about the progress and completion of your swap.
-
-*Image Placeholder: Real-Time Status Updates*
 
 ## Refreshing the Session
 
@@ -68,8 +54,6 @@ KrossSwap is an innovative AI-powered platform that facilitates cross-chain cryp
 
 - **Command**: `/refresh`
 - **Description**: Clears the current session and starts a new conversation. This is useful for resetting the bot or beginning a new swap process.
-
-*Image Placeholder: Refreshing the Session*
 
 ## Additional Features
 
