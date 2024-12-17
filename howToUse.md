@@ -1,57 +1,64 @@
 # How to Use KrossSwap
 
-![KrossSwap Logo](./images/krossswap-logo.png)
-
 ## Getting Started
 
 ### Step 1: Starting the Bot
-![Starting the Bot](./images/start-command.png)
+![starting the Bot](https://github.com/user-attachments/assets/c67f862f-3e69-482c-b12c-8e47d37d635a)
+
 - **Command**: `/start`
 - **Description**: Begin your journey with KrossSwap by sending the `/start` command in the Telegram chat.
 
 ### Step 2: Initiating a Swap
-![Swap Request](./images/swap-request.png)
+![Swap Request](https://github.com/user-attachments/assets/0afdb65b-e319-4214-ad7d-908bb065)
+
 - **Command**: Send a message like "I want to swap 0.1 BTC to ETH."
 - **Description**: Simply type your swap request in natural language.
 
 ## Providing Swap Details
 
 ### Step 3: Follow the Bot's Prompts
-![Bot Prompts](./images/bot-prompts.png)
+
+![Bot Prompts](https://github.com/user-attachments/assets/5d64ead5-921b-43d3-81904d3ef7dec)
+
 - **Command**: Provide the source token, source chain, destination token, destination chain, and amount as prompted by the bot.
 - **Description**: The bot will guide you through providing all necessary details for the swap.
 
 ## Confirming the Swap
 
 ### Step 4: Review and Confirm
-![Review Details](./images/review-details.png)
+![Review and confirm](https://github.com/user-attachments/assets/11e714cc-f01a-4d36-aa7b-bbaa690181f1)
+
 - **Command**: Confirm the details provided by the bot.
 - **Description**: The bot will display a summary of your swap details.
 
 ## Generating the Deposit Address
 
 ### Step 5: Automatic Address Generation
-![QR Code Generation](./images/qr-code.png)
+![QR generation](https://github.com/user-attachments/assets/1ae59aba-a5d8-42a8-97c8-5373f00411c1)
+
 - **Command**: The bot will automatically generate the deposit address after confirmation.
 - **Description**: A QR code will be provided for easy scanning and payment.
 
 ## Completing the Transaction
 
 ### Step 6: Scan and Pay
-![Scan QR](./images/scan-qr.png)
+
+![QR](https://github.com/user-attachments/assets/c5af40da-196f-417e-8063-add9a40e2d11)
+
+
 - **Command**: Scan the QR code with your wallet app and complete the transaction.
 - **Description**: Use your preferred wallet app to scan the QR code.
 
 ## Real-Time Status Updates
 
 ### Step 7: Stay Informed
-![Transaction Status](./images/transaction-status.png)
 - **Description**: The bot provides real-time status updates on your transaction.
 
 ## Refreshing the Session
 
 ### Step 8: Start Anew
-![Refresh Command](./images/refresh-command.png)
+![Refresh](https://github.com/user-attachments/assets/2753f582-ef5f-4b54-8a68-252e9727e412)
+
 - **Command**: `/refresh`
 - **Description**: Clears the current session and starts a new conversation.
 
