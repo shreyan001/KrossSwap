@@ -20,7 +20,7 @@ const messages_1 = require("@langchain/core/messages");
 const langgraph_3 = require("@langchain/langgraph");
 const openai_1 = require("@langchain/openai");
 const dotenv_1 = require("dotenv");
-// import {  litPaymentsFunctions } from './autonomousPayment.js';
+const autonomousPayment_1 = require("./autonomousPayment");
 (0, dotenv_1.config)();
 const swapSDK = new swap_1.SwapSDK({
     network: "perseverance", //
@@ -429,18 +429,18 @@ The final amount received may vary due to market conditions and network fees.
     }));
     /* @ts-ignore */
     graph.addEdge("generateDeposit_node", langgraph_2.END);
-    // graph.addNode("litPaymentsNode", async (state: krossState) => {
-    //     console.log("Executing Lit Payments node...");
-    //     // Call the function to demonstrate Lit Protocol usage for payement of subscription contract
-    //     await litPaymentsFunctions();
-    //     // Return a message indicating the demonstration is complete
-    //     return {
-    //         messages: [new AIMessage("Lit Payments functions executed.")],
-    //     };
-    // });
-    // // Add an edge to call the Lit Payments node
-    // /* @ts-ignore */
-    // graph.addEdge("some_existing_node", "litPaymentsNode");
+    graph.addNode("litPaymentsNode", (state) => __awaiter(this, void 0, void 0, function* () {
+        console.log("Executing Lit Payments node...");
+        // Call the function to demonstrate Lit Protocol usage for payement of subscription contract
+        yield (0, autonomousPayment_1.litPaymentsFunctions)();
+        // Return a message indicating the demonstration is complete
+        return {
+            messages: [new messages_1.AIMessage("Lit Payments functions executed.")],
+        };
+    }));
+    // Add an edge to call the Lit Payments node
+    /* @ts-ignore */
+    graph.addEdge("some_existing_node", "litPaymentsNode");
     return graph.compile();
 }
 ;

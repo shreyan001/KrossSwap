@@ -14,7 +14,7 @@ import {z} from "zod";
 import { ChatGroq } from "@langchain/groq";
 import { ChatOpenAI } from "@langchain/openai";
 import { config } from 'dotenv';
-// import {  litPaymentsFunctions } from './autonomousPayment.js';
+import {  litPaymentsFunctions } from './autonomousPayment';
 config();
 
 const swapSDK = new SwapSDK({
@@ -496,21 +496,21 @@ The final amount received may vary due to market conditions and network fees.
      graph.addEdge("generateDeposit_node", END);
     
   
-    // graph.addNode("litPaymentsNode", async (state: krossState) => {
-    //     console.log("Executing Lit Payments node...");
+    graph.addNode("litPaymentsNode", async (state: krossState) => {
+        console.log("Executing Lit Payments node...");
 
-    //     // Call the function to demonstrate Lit Protocol usage for payement of subscription contract
-    //     await litPaymentsFunctions();
+        // Call the function to demonstrate Lit Protocol usage for payement of subscription contract
+        await litPaymentsFunctions();
 
-    //     // Return a message indicating the demonstration is complete
-    //     return {
-    //         messages: [new AIMessage("Lit Payments functions executed.")],
-    //     };
-    // });
+        // Return a message indicating the demonstration is complete
+        return {
+            messages: [new AIMessage("Lit Payments functions executed.")],
+        };
+    });
 
-    // // Add an edge to call the Lit Payments node
-    // /* @ts-ignore */
-    // graph.addEdge("some_existing_node", "litPaymentsNode");
+    // Add an edge to call the Lit Payments node
+    /* @ts-ignore */
+    graph.addEdge("some_existing_node", "litPaymentsNode");
     
 return graph.compile();
 

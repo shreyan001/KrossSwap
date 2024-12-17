@@ -42,10 +42,10 @@ const constants_1 = require("@lit-protocol/constants");
 const lit_node_client_1 = require("@lit-protocol/lit-node-client");
 const ethers_1 = __importDefault(require("ethers"));
 const LitJsSdk = __importStar(require("@lit-protocol/lit-node-client"));
-// Example Ethereum addresses and subscription contract addresses
-const nodeJsServerAddress = "0xExampleNodeJsServerAddress";
-const gaianetServerAddress = "0xExampleGaianetServerAddress";
-const subscriptionContractAddress = "0xExampleSubscriptionContractAddress";
+// Ethereum addresses and subscription contract addresses
+const nodeJsServerAddress = "0x7A3d05c70498e2A93b487c1A1d9d5CF61f757e42";
+const gaianetServerAddress = "0x2E8f4e1f77c2CF2Bd2B8DBd568Ee1E4e57f6E2a9";
+const subscriptionContractAddress = "0x9B3a45D2b6537fe3609E69e90AB6E96d2E2F75E1";
 // Function to create a Lit PKP and manage payments
 function setupAutonomousPayment() {
     return __awaiter(this, void 0, void 0, function* () {
@@ -88,9 +88,38 @@ function setupAutonomousPayment() {
             scopes: [constants_1.AuthMethodScope.SignAnything],
         });
         console.log("Minted PKP:", mintInfo.pkp);
-        // Logic to monitor balance and make payments
-        // This is a placeholder for the actual implementation
-        console.log("Monitoring balance and making payments...");
+        // Addresses to pay
+        const addresses = [
+            "0x7A3d05c70498e2A93b487c1A1d9d5CF61f757e42", // nodeJsServerAddress
+            "0x2E8f4e1f77c2CF2Bd2B8DBd568Ee1E4e57f6E2a9", // gaianetServerAddress
+            "0x9B3a45D2b6537fe3609E69e90AB6E96d2E2F75E1", // subscriptionContractAddress
+        ];
+        const chainInfo = getChainInfo("yellowstone");
+        const ethersProvider = new ethers_1.default.providers.JsonRpcProvider(chainInfo.rpcUrl);
+        const gasPrice = yield ethersProvider.getGasPrice();
+        for (const address of addresses) {
+            const unsignedTransaction = {
+                to: address,
+                gasLimit: 21000,
+                gasPrice: gasPrice.toHexString(),
+                nonce: yield ethersProvider.getTransactionCount(signer.address),
+                chainId: chainInfo.chainId,
+                value: ethers_1.default.utils.parseUnits("0.01", "ether").toHexString(), // Example amount
+            };
+            const unsignedTransactionHash = ethers_1.default.utils.keccak256(ethers_1.default.utils.serializeTransaction(unsignedTransaction));
+            const litActionResponse = yield litNodeClient.executeJs({
+                code: transactionActionCode,
+                jsParams: {
+                    toSign: ethers_1.default.utils.arrayify(unsignedTransactionHash),
+                    publicKey: LIT_PKP_PUBLIC_KEY,
+                    sigName: "signedtx",
+                    chain: "yellowstone",
+                    unsignedTransaction,
+                },
+                sessionSigs: sessionSigs,
+            });
+            console.log(`Transaction to ${address} completed with hash:`, litActionResponse.response);
+        }
     });
 }
 // Additional function to demonstrate more usage of Lit Protocol
@@ -128,4 +157,3 @@ function litPaymentsFunctions() {
 // Call the function to setup autonomous payment
 setupAutonomousPayment();
 // Call the function to create a LangGraph node
-createLangGraphNode();
