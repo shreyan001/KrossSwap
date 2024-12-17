@@ -173,15 +173,73 @@ KrossSwap demonstrates robust and well-implemented code, effectively utilizing G
 
 ### Partner Integrations
 
-KrossSwap excels in partner integrations, making it a strong contender for several bounties:
+KrossSwap demonstrates exceptional integration of partner technologies, making it a strong contender for several key bounties:
 
-- **Gaia Agent Infrastructure Challenge**: KrossSwap utilizes Gaia nodes to power its AI-driven interactions, demonstrating the best use of Gaia's infrastructure for decentralized AI applications.
+### Gaia Agent Infrastructure Challenge ($2000)
 
-- **Lit Protocol Bounty: Most Practical Agent built with Lit**: The project incorporates Lit Protocol for autonomous payments, showcasing its practical application in managing subscription contracts and operational costs. The platform sustains itself through brokerage commissions collected from each successful swap, which are managed autonomously using the Lit Protocol.
+KrossSwap leverages Gaia's infrastructure to create a revolutionary decentralized AI application that transforms how users interact with cross-chain swaps. Our implementation significantly enhances the Gaia ecosystem by:
 
-- **Lit Protocol Bounty: Most Autonomous Agent built with Lit**: KrossSwap's ability to sustain its operations through brokerage earnings and autonomous payment handling makes it a prime candidate for this bounty, highlighting its autonomy and efficiency. Users can interact with the AI agent to create payment channels, ensuring that server costs and other expenses are covered without manual intervention.
+- **Advanced Agent Capabilities**: Utilizing Gaia nodes to power sophisticated AI-driven interactions that can understand complex swap requirements, calculate optimal routes, and provide real-time market insights. The AI agent maintains context across multiple conversations, enabling natural, human-like interactions while executing complex DeFi operations.
 
-By effectively integrating these partner technologies, KrossSwap not only enhances its functionality but also aligns with the goals of the hackathon, making it a strong candidate for recognition in multiple categories.
+- **Scalable Infrastructure**: Implementing a distributed architecture that can handle thousands of concurrent users without compromising performance. Our solution demonstrates how Gaia's infrastructure can be leveraged for high-throughput DeFi applications while maintaining decentralization.
+
+- **Enhanced Language Processing**: Developing custom prompt engineering techniques that improve the accuracy and relevance of AI responses, particularly for DeFi-specific terminology and concepts. This advancement benefits the entire Gaia ecosystem by establishing best practices for financial AI agents.
+
+- **Cross-Chain Integration**: Creating a bridge between Gaia's AI capabilities and multiple blockchain networks through the Chainflip SDK, showcasing how Gaia's infrastructure can seamlessly interact with diverse blockchain protocols.
+
+### Lit Protocol Bounty: Most Practical Agent built with Lit ($1000)
+
+KrossSwap represents a groundbreaking implementation of Lit Protocol that delivers immediate real-world utility in the DeFi space:
+
+- **Autonomous Payment Management**: Implementing Lit's PKPs (Programmable Key Pairs) to create a self-sovereign system that manages payment channels and transaction execution without requiring developer intervention. The system autonomously:
+  - Processes brokerage fees from successful swaps
+  - Manages operational expenses for server costs
+  - Handles subscription payments for API services
+  - Distributes rewards to liquidity providers
+
+- **Smart Contract Integration**: Utilizing Lit Actions to define and enforce complex payment policies through smart contracts, ensuring:
+  - Automatic fee collection and distribution
+  - Transparent transaction verification
+  - Secure multi-signature approvals for large transactions
+  - Automated accounting and reporting
+
+- **Real-World Applications**: Solving critical DeFi challenges by:
+  - Reducing cross-chain swap complexity for non-technical users
+  - Eliminating the need for users to understand complex blockchain mechanics
+  - Providing natural language interfaces for sophisticated DeFi operations
+  - Ensuring transparent and verifiable transactions
+
+### Lit Protocol Bounty: Most Autonomous Agent built with Lit ($1000)
+
+KrossSwap achieves unprecedented levels of autonomy through sophisticated integration of Lit Protocol's key management and computational layers:
+
+- **Self-Sovereign Architecture**: 
+  - Implements fully autonomous key management using Lit's PKP system
+  - Eliminates developer control over operational keys
+  - Maintains complete transaction transparency and auditability
+  - Enables trustless operation through smart contract governance
+
+- **Autonomous Decision Making**:
+  - Utilizes Lit Actions to create complex conditional logic for transaction execution
+  - Implements real-time market analysis for optimal swap timing
+  - Automatically adjusts fee structures based on network conditions
+  - Manages liquidity pools without human intervention
+
+- **Advanced Integration Features**:
+  - Connects with multiple off-chain data sources for market information
+  - Interfaces with leading LLM providers for natural language processing
+  - Executes complex cross-chain transactions automatically
+  - Maintains operational security through distributed key management
+
+- **Operational Independence**:
+  - Self-sustains through automated commission collection
+  - Manages server costs and API expenses autonomously
+  - Handles system upgrades and maintenance procedures
+  - Generates comprehensive performance reports and analytics
+
+By effectively integrating these partner technologies, KrossSwap demonstrates not only technical excellence but also practical utility and true autonomy. The project showcases how combining Gaia's robust infrastructure with Lit Protocol's advanced key management and computational capabilities can create a truly decentralized, self-sustaining DeFi platform that sets new standards for autonomous agents in the blockchain space.
+
+Our implementation goes beyond basic integration, pushing the boundaries of what's possible with these technologies while maintaining security, scalability, and user-friendliness. This makes KrossSwap a strong candidate for recognition across multiple bounty categories, as it demonstrates both technical sophistication and practical application in solving real-world DeFi challenges.
 
 ## Usage
 
